@@ -1,0 +1,89 @@
+
+body {
+   	background: url(../bgimages/2.jpg) no-repeat top center fixed;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+margin: 0px;
+padding: 0px;
+font-family: arial;
+font-size: 14px;
+ }
+
+header{
+	height: auto;
+	width: 100%;
+	background-color: white;
+	opacity: 0.5;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+#welcome, #help_you{
+	/*color: white;*/
+	font-family: arial;
+	width: 100%;
+	text-align: center;
+}
+
+/* * * * Article area * * */
+
+article{
+	padding: 5% 2% 10% 2%;
+	background-color: #10CCB9;
+	opacity: 0.9;
+}
+
+
+/* * * * Lists * * */
+
+.list{
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+	border-width: 1px;
+	border-color: black;
+	border-style: dotted;
+	padding: 20px;
+	margin: 10px;
+
+}
+
+.list h2{
+	color: black;
+	font-size: 16px;
+}
+
+/* removes the bullets! */
+.list ul{
+    padding: 0;
+}
+
+.list ul{
+	list-style-type: none;
+	list-style-position: inside;
+}
+
+.list ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.list ul li a:hover{
+	color: white;
+}
+
+/* * * * Fonts * * */
+
+.large{
+	font-size: 150px;
+	margin: 0px;
+}
+
+.medium{
+	font-size: 70px;
+	margin: 0px;
+
+}
+
